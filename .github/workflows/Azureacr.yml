@@ -13,8 +13,8 @@ jobs:
       - name: ACR Login
         uses: docker/login-action@v2
         with:
-          registry: learnacr402.azurecr.io
-          username: learnacr402
+          registry: learnacr402a.azurecr.io
+          username: learnacr402a
           password: ${{ secrets.ACR_PWD }}
   
       - name: Show repos from ACR
