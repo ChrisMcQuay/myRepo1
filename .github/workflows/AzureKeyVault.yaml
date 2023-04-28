@@ -2,7 +2,7 @@ on: [workflow_dispatch]
 name: AzureKeyVault
 env:
   kvname: learnkeyvault103
-  secretname: AZURE_CREDENTIALS
+  secretname: ChrisSecret
 
 jobs:
   access-keyvault:
